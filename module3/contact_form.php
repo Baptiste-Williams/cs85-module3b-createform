@@ -58,4 +58,20 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   }
   echo '</ul>';
 }
+
+<?php
+// ----- Output Predictions -----
+// I expect to see a thank-you message with my name, the topic I entered, and my email.
+// If I mess up the form (like leaving something blank), I should see error messages.
+
+// ----- Expected $_POST -----
+// [
+//   'name' => 'Baptiste Williams',
+//   'email' => 'tc1028@hotmail.com',
+//   'topic' => 'Improving form validation',
+//   'message' => 'A message that’s between 50 and 150 words long.',
+//   'submit' => 'Send Message'
+// ]
+?>
+
 ?>
