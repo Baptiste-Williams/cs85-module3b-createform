@@ -74,4 +74,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 // ]
 ?>
 
+<?php
+// ----- Post-Test Reflections -----
+// - I realized str_word_count() doesn’t count the way I expected — it skips numbers and symbols.
+// - I had to trim the message before counting words to avoid weird results.
+// - htmlspecialchars() was easy to use and made me feel more confident and secure.
+// - I might come back later and make the form keep the user’s input if there are errors.
+// - Overall, this helped me understand how PHP handles form data and validation out in the real-world way.
+?>
+
 ?>
